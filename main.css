@@ -1,0 +1,7 @@
+@import "div.css";
+@import "paragraph.css";
+
+body {
+  height: 100%;
+  background-color: lightgray;
+}

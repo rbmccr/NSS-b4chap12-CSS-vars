@@ -1,0 +1,13 @@
+:root {
+  --dark-gold: rgb(223, 186, 1);
+  --bright-gold: rgb(243, 197, 0);
+  --dark-red: rgb(223, 54, 46);
+  --display-p: inline-block;
+  --width-p: 60%;
+}
+
+p {
+  background-color: var(--dark-gold);
+  display: var(--display-p);
+  width: var(--width-p);
+}

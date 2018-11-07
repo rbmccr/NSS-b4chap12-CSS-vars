@@ -1,0 +1,31 @@
+:root {
+  --bright-red: rgb(255, 65, 55);
+  --dark-blue: rgb(0, 104, 194);
+  --bright-blue: rgb(0, 116, 218);
+  --font-family-div: "Arial", sans-serif;
+}
+
+div {
+  background-color: var(--bright-blue);
+  padding: 10px;
+}
+
+div:first-of-type {
+  background-color: var(--bright-red);
+}
+
+div:nth-of-type(3) {
+  background-color: var(--dark-blue);
+  font-family: var(--font-family-div);
+  font-weight: bold;
+}
+
+/* scoped variables apply to selected class */
+/* children elements can also access the variables */
+.box {
+  --box-bg-color: lightgreen;
+}
+
+.box {
+  background-color: var(--box-bg-color);
+}
